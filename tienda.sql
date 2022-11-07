@@ -9,5 +9,6 @@ CREATE TABLE articulos (
 
 INSERT INTO articulos(codigo, descripcion, precio)
     VALUES('314643514654', 'Yogur macedonia', 200),
-          ('314643514654', 'galletas', 15),
-          ('314643514654', 'usb', 450),
+          ('31464dvdv654', 'galletas', 15),
+          ('314659462625', 'usb', 450),
+          ('31464advss54', '785', 450)
