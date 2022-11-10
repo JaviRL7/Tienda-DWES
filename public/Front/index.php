@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda online</title>
+    <link href="/public/css/output.css" rel="stylesheet">
 </head>
 
 <body>
+    <h1 class="text-3xl font-bold underline">
+    Hello world!
+    </h1>
     <?php
     require '../../src/auxiliar.php';
     ?>
@@ -19,7 +23,7 @@
     $hasta_codigo = obtener_get('hasta_codigo');
     $descripcion = obtener_get('descripcion');
     ?>
-    <table class="container mx-auto">
+    <table>
         <th>codigo</th>
         <th>descripcion</th>
         <th>precio</th>
