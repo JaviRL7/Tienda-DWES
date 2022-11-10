@@ -10,7 +10,7 @@
 
 <body>
     <?php
-    require 'auxiliar.php';
+    require '../../src/auxiliar.php';
     ?>
 
     <?php
@@ -19,7 +19,7 @@
     $hasta_codigo = obtener_get('hasta_codigo');
     $descripcion = obtener_get('descripcion');
     ?>
-    <table>
+    <table class="container mx-auto">
         <th>codigo</th>
         <th>descripcion</th>
         <th>precio</th>
