@@ -10,9 +10,6 @@
 </head>
 
 <body>
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-    </h1>
     <?php
     require '../../src/auxiliar.php';
     ?>
@@ -22,15 +19,10 @@
     $desde_codigo = obtener_get('desde_codigo');
     $hasta_codigo = obtener_get('hasta_codigo');
     $descripcion = obtener_get('descripcion');
+    $precio = obtener_get('precio');
     ?>
-    <table>
-        <th>codigo</th>
-        <th>descripcion</th>
-        <th>precio</th>
-    </table>
-
-
-    <div>
+    
+    <div >
         <form action="" method="get">
             <fieldset>
                 <legend>Criterios de búsqueda</legend>
@@ -62,6 +54,7 @@
             </fieldset>
         </form>
     </div>
+    <script src="/js/flowbite/flowbite.js"></script>
 </body>
 
 </html>

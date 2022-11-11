@@ -1,0 +1,3 @@
+isset 
+$_GET
+En html el fieldset
